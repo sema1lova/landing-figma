@@ -1,0 +1,94 @@
+.slider {
+    background-image: url("../../assets/Slider/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .slider__content {
+        height: 75vh;       
+        // padding: 60px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        .slider__title {
+            width: 45%;
+            margin: 0; 
+            line-height: 48px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .slider__desc {
+            color: white;
+            width: 50%;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .slider__btn {
+            background-color: #E05100;
+            padding: 18px 80px;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .slider {
+        .slider__content {
+            height: 75vh;       
+            .slider__title {
+                width: 100%;
+            }
+            .slider__desc {
+                width: 100%;
+            }
+        }
+    }
+    
+ }
+ @media (min-width: 565px) and (max-width:768px) {
+      .slider {
+        .slider__content {
+            height: 75vh;       
+            .slider__title {
+                width: 100%;
+            }
+            .slider__desc {
+                width: 100%;
+            }
+        }
+    }
+ }
+ @media (min-width: 768px) and (max-width: 992px) {
+      .slider {
+        .slider__content {
+            height: 75vh;       
+            .slider__title {
+                width: 100%;
+            }
+            .slider__desc {
+                width: 100%;
+            }
+        }
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1320px) {
+      .slider {
+        .slider__content {
+            height: 75vh;       
+            .slider__title {
+                width: 100%;
+            }
+            .slider__desc {
+                width: 100%;
+            }
+        }
+    }
+ }

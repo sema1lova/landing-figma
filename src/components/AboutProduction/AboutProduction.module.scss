@@ -1,0 +1,193 @@
+.aboutPro{
+    // display: flex;
+    // align-items: center;
+    margin: 60px 0;
+    padding: 90px 0;
+    background-color: #404040;
+    .aboutPro__mainTitle{
+        font-size: 35px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .aboutPro__content{
+        .aboutPro__content__image{
+            margin-bottom: 20px;
+            // background-image: url("../../assets/AboutProduction/6.png");
+            // background-repeat: no-repeat;
+            img{
+                background: white;
+                padding: 5px 15px;
+                border-radius: 30px;
+                width: 150px;                
+            }
+        }
+        .aboutProAll{
+            .aboutProBox{
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                .aboutProBoxLeft{
+                    img{
+
+                    }
+                }
+                .aboutProBoxRight{
+                    .aboutProBoxRight__desc{
+                        width: 80%;
+                        color: white;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .aboutPro__image{
+        img{
+
+        }
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+    .aboutPro{
+        margin: 20px 0;
+        padding: 40px 0;
+        .aboutPro__mainTitle{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .aboutPro__content{
+            .aboutPro__content__image{
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            .aboutProAll{
+                margin-bottom: 30px;
+                .aboutProBox{
+                    display: flex;
+                    align-items: center;
+                    .aboutProBoxRight{
+                        margin-bottom: 5px;
+                        .aboutProBoxRight__desc{
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+        .aboutPro__image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+    
+}
+@media (min-width: 565px) and (max-width:768px) {
+
+       .aboutPro{
+        margin: 20px 0;
+        padding: 40px 0;
+        .aboutPro__mainTitle{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .aboutPro__content{
+            .aboutPro__content__image{
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            .aboutProAll{
+                margin-bottom: 30px;
+                .aboutProBox{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    .aboutProBoxRight{
+                        .aboutProBoxRight__desc{
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+        }
+        .aboutPro__image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+       .aboutPro{
+        margin: 20px 0;
+        padding: 40px 0;
+        .aboutPro__mainTitle{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .aboutPro__content{
+            .aboutPro__content__image{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .aboutProAll{
+                margin-bottom: 30px;
+                .aboutProBox{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    .aboutProBoxRight{
+                        .aboutProBoxRight__desc{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .aboutPro__image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1320px) {
+
+       .aboutPro{
+        margin: 20px 0;
+        padding: 40px 0;
+        .aboutPro__mainTitle{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .aboutPro__content{
+            .aboutProAll{
+                .aboutProBox{
+                    display: flex;
+                    align-items: center;
+                    .aboutProBoxRight{
+                        .aboutProBoxRight__desc{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .aboutPro__image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+}

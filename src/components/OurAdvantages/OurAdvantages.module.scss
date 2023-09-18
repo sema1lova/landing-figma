@@ -1,0 +1,113 @@
+.ourAdvan{
+    margin: 50px 0;
+    padding: 60px 0;
+    background-color: #404040;
+    .ourAdvan__mainTitle__content{
+        margin-bottom: 50px;
+        .ourAdvan__mainTitle{
+            color: white ;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 600;
+        }
+    }
+    .ourAdvanAll{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .ourAdvanBox{
+            border-radius: 30px;
+            margin-bottom: 30px;
+            width: 400px;
+            height: 280px;
+            padding: 10px;
+            background-color: #fff;
+            .ouradvan__img{
+                text-align: center;
+                // margin-bottom: 10px;
+            }
+            .ourAdvanBox__content{
+                .ourAdvanBox__title{
+                    font-weight: 700;   margin: 0;
+                }
+                .ourAdvanBox__desc{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+ 
+    .ourAdvan{
+        padding: 40px 0;
+        .ourAdvan__mainTitle__content{
+            .ourAdvan__mainTitle{
+                font-size: 35px;
+            }
+        }
+        .ourAdvanAll{
+            .ourAdvanBox{
+                width: 100%;
+                height: 260px;
+            }
+        }
+    }
+    
+}
+@media (min-width: 565px) and (max-width:768px) {
+    .ourAdvan{
+        padding: 40px 0;
+        .ourAdvan__mainTitle__content{
+            .ourAdvan__mainTitle{
+                font-size: 35px;
+            }
+        }
+        .ourAdvanAll{
+            .ourAdvanBox{
+                width: 100%;
+                height: 260px;
+            }
+        }
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .ourAdvan{
+        padding: 40px 0;
+        .ourAdvan__mainTitle__content{
+            .ourAdvan__mainTitle{
+                font-size: 35px;
+            }
+        }
+        .ourAdvanAll{
+            .ourAdvanBox{
+                width: 95%;
+                margin: 10px auto;
+                height: 300px;
+            }
+        }
+    }
+  
+}
+@media (min-width: 992px) and (max-width: 1320px) {
+    .ourAdvan{
+        padding: 40px 0;
+        .ourAdvan__mainTitle__content{
+            .ourAdvan__mainTitle{
+                font-size: 35px;
+            }
+        }
+        .ourAdvanAll{
+            .ourAdvanBox{
+                width: 95%;
+                margin: 10px auto;
+                height: 320px;
+            }
+        }
+    }
+     
+    
+}

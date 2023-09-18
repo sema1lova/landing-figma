@@ -1,0 +1,156 @@
+.topPro {
+    .catPro__mainTitle {
+        margin: 80px 0;
+        p {
+            font-weight: bold;
+            font-size: 35px;
+            text-align: center;
+        }
+    }
+    .catProAll {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .catProBox {
+            margin-bottom:60px;
+            box-shadow:0px 0px 20px 5px rgb(160, 160, 160);
+            display: flex;
+            border-radius: 30px 30px 30px 30px;
+            .catProLeft {
+                padding-left: 20px;
+                width: 100%;
+                img {
+                    margin-top: 10px;
+                    }
+
+                .catProLeft__title1 {
+                    margin-top: 10px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    }
+
+                .catProLeft__title2 {
+                    font-size: 17px;
+                    margin:5px 0;
+                    }
+                .catProLeft__title3 {
+                    font-size: 17px;
+                    margin:5px 0;
+                    }
+                .catProLeft__title4 {
+                    font-size: 17px;
+                    margin:5px 0;
+                    }
+
+                .catProLeft__colors {
+                    .catProLeft__color1 {
+                        padding:1px 10px;
+                        background-color: #737373;
+                        margin-right: 10px;
+                    }
+                    .catProLeft__color2 {
+                        padding:1px 10px;
+                        background-color: #9C0909;
+                        margin-right: 10px;
+                    }
+                    .catProLeft__color3 {
+                        padding:1px 10px;
+                        background-color: #D48D37;
+                        margin-right: 10px;
+                    }
+                    .catProLeft__color4 {
+                        padding:1px 10px;
+                        background-color: #964B00;
+                        margin-right: 10px;
+                    }
+                    .catProLeft__color5 {
+                        padding:1px 10px;
+                        background-color: #DC143C;
+                        margin-right: 10px;
+                    }
+                    .catProLeft__color6 {
+                        padding:1px 10px;
+                        background-color: #49423D;
+                        margin-right: 10px;
+                    }
+                    .catProLeft__color7 {
+                        padding:1px 10px;
+                        background-color: #D77D31;
+                        margin-right: 10px;
+                    }
+                    .catProLeft__color8 {
+                        padding:1px 10px;
+                        background-color: #000000;
+                        margin-right: 10px;
+                    }
+                }
+
+            }
+
+            .catProRight {
+                width: 100%;
+                // padding-left: 20px;
+                // padding-right: 80px;
+                 border-radius: 0px 30px 30px 0px;
+                background: #404040;
+                .catProRight__title1 {
+                    margin: 6px 0px 12px 0px;
+                    font-weight: 600;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__title2 {
+                    margin: 6px 0px 12px 0px;
+                    font-weight: 600;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__title3 {
+                    margin: 6px 0px 12px 0px;
+                    font-weight: 600;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__title4 {
+                    margin: 6px 0px 12px 0px;
+                    font-weight: 600;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__title5 {
+                    margin: 6px 0px 12px 0px;
+                    font-weight: 600;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__desc1 {
+                    margin: 6px 0px 12px 0px;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__desc2 {
+                    margin: 6px 0px 12px 0px;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__desc3 {
+                    margin: 6px 0px 12px 0px;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__desc4 {
+                    margin: 6px 0px 12px 0px;
+                    color: white;
+                    margin-left: 20px;
+                }
+                .catProRight__desc5 {
+                    margin: 6px 0px 12px 0px;
+                    color: white;
+                    margin-left: 20px;
+                }
+
+            }
+        }
+    }
+}

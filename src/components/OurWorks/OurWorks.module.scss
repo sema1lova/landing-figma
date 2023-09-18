@@ -1,0 +1,25 @@
+.ourWorks{
+    .ourWorks__main__content{
+        text-align: center;
+        .ourWork__mainTitle{
+            font-size: 35px;
+            font-weight: 600;
+        }
+        .ourWorks__mainDesc{
+            margin: 30px auto;
+            width: 95%;
+        }
+    }
+    .ourWorksAll{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        .ourWorksBox{
+            margin: 20px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
